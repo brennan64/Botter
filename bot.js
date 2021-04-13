@@ -39,6 +39,6 @@ client.on('message', async (message) => {
     }
 });
 
-client.login(DISCTOKEN);
+client.login(process.env.DISCTOKEN);
 
 
