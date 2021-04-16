@@ -16,7 +16,7 @@ module.exports = {
             }
         }
 
-        const dogUrl = picArray[Math.floor(Math.random() * picArray.length)];           
+        const dogUrl = picArray[Math.floor(Math.random() * picArray.length)]; //   
         message.reply('Heres a puppel\n' + dogUrl); //reply with dog pic
     }
 }
