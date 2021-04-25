@@ -1,7 +1,7 @@
 const { MessageAttachment } = require("discord.js");
 
 module.exports = {
-    name: 'dpics',
+    name: 'dpic',
     async execute (message, args, client) {
         const dogposting = await client.channels.fetch("800034786466725898"); //get messages from dogposting
         const messageObj = await dogposting.messages.fetch();   
