@@ -4,6 +4,7 @@
   "description": " bot",
   "main": "bot.js",
   "scripts": {
+    "start": "nodemon bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bre",
@@ -11,5 +12,8 @@
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
